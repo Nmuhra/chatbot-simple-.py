@@ -15,3 +15,11 @@ print(name + ", what do you wanna learn today? Here are the options.\n "+ menu)
 order = input()
 
 print("Great " + name + ", We will start shortly with your " + order +" course, get your coffee ready")
+
+language = "English, French, Spanish, Arabic"
+
+print(name + ", what language do you want your course to be in? Here are the ones currently available.\n"+ language)
+
+lang = input()
+
+print("thanks " + name + ", we are finalizing your  " + order +" course, making sure we are using " + lang )
