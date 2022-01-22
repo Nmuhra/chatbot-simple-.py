@@ -20,6 +20,16 @@ language = "English, French, Spanish, Arabic"
 
 print(name + ", what language do you want your course to be in? Here are the ones currently available.\n"+ language)
 
-lang = input()
+language = input()
 
-print("thanks " + name + ", we are finalizing your  " + order +" course, making sure we are using " + lang )
+if language == "English":
+ 
+    print("thanks " + name + ", we are finalizing your  " + order +" course, making sure we are using " + language)
+
+if language == "French":
+
+    print("merci " + name + ", nous finalisons votre cours " + order + ", en nous assurant que nous utilisons " + language)
+
+if language == "Spanish":
+
+    print("gracias " + name + ", estamos finalizando su " + order +" curso, asegurándonos de que estamos usando " + language)
