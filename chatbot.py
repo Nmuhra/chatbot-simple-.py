@@ -1,6 +1,6 @@
 #Let's program together!! we are going to build a learning platform for you using python!!
 
-#let's build robot 
+#let's build a robot 
 
 print("Hello welcome to Nmuhra learning!!")
 
@@ -16,7 +16,7 @@ order = input()
 
 print("Great " + name + ", We will start shortly with your " + order +" course, get your coffee ready")
 
-language = "English, French, Spanish, Arabic"
+language = "English, French, Spanish"
 
 print(name + ", what language do you want your course to be in? Here are the ones currently available.\n"+ language)
 
@@ -33,3 +33,9 @@ if language == "French":
 if language == "Spanish":
 
     print("gracias " + name + ", estamos finalizando su " + order +" curso, asegurándonos de que estamos usando " + language)
+
+level = "begginer, intermidiate, advanced"
+
+if order == "python":
+    
+    print("okay" + name + ",please select what level you are on:\n
